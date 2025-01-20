@@ -18,6 +18,7 @@
 
 .profile__name {
     margin: 0 0 12px;
+    color: #212121;
     font-family: Poppins, Arial, Helvetica, sans-serif;
     font-weight: 500;
     font-size: 32px;
@@ -29,7 +30,6 @@
     -webkit-line-clamp: 3;
     -webkit-box-orient: vertical;
     max-width: 420px;
-    color: #212121;
 }
 
 .profile__description {
@@ -50,16 +50,19 @@
 }
 
 .profile__edit-button {
+    color: #212121;
     font-family: Poppins, Arial, Helvetica, sans-serif;
     font-weight: 500;
     font-size: 16px;
     line-height: 16px;
     opacity: 70%;
+    cursor: pointer;
     border: none;
     gap: 8px;
     width: 107.34px;
     height: 16px;
     padding: 0;
+    display: flex;
 }
 
 .profile__edit-button:hover {
@@ -75,6 +78,10 @@
     line-height: 16px;
     background-color: #212121;
     color: #fcf5e5;
+    cursor: pointer;
+    display: flex;
+    justify-content: center;
+    align-items: center;
     width: 149px;
     height: 52px;
     gap: 8px;
@@ -116,7 +123,8 @@
     }
 
     .profile__edit-button {
-        justify-content: center;
+        align-items: center;
+        margin: 0 auto;
     }
 
     .profile__post-button {

@@ -19,6 +19,7 @@
 }
 
 .card__title {
+    color: #212121;
     font-family: Poppins, Arial, Helvetica, sans-serif;
     font-weight: 500;
     font-size: 20px;
@@ -35,6 +36,7 @@
     border: none;
     background-color: transparent;
     opacity: 40%;
+    cursor: pointer;
 }
 
 .card__like-button:hover {
