@@ -17,7 +17,7 @@
 }
 
 .profile__name {
-    margin: 0 0 12px;
+    margin: 0;
     color: #212121;
     font-family: Poppins, Arial, Helvetica, sans-serif;
     font-weight: 500;
@@ -44,13 +44,14 @@
     -webkit-line-clamp: 3;
     -webkit-box-orient: vertical;
     max-width: 420px;
-    margin: 0 0 114px;
+    margin-bottom: auto;
     color: #212121;
     opacity: 70%;
 }
 
 .profile__edit-button {
     color: #212121;
+    background-color: transparent;
     font-family: Poppins, Arial, Helvetica, sans-serif;
     font-weight: 500;
     font-size: 16px;
@@ -71,7 +72,7 @@
 
 .profile__post-button {
     margin-left: auto;
-    margin-top: 138px;
+    margin-top: auto;
     font-family: Poppins, Arial, Helvetica, sans-serif;
     font-weight: 500;
     font-size: 16px;
@@ -86,6 +87,7 @@
     height: 52px;
     gap: 8px;
     border-radius: 8px;
+    border: none;
 }
 
 .profile__post-button:hover {
