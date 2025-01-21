@@ -19,3 +19,7 @@ An interactive social media page where you're able to like and share photos with
 Webpage deployed from Github
 
 -   Deployment link: https://dullrich3.github.io/se_project_spots
+
+## Video Description
+
+-   Google Drive link: https://drive.google.com/file/d/1SFzInuXlcxRg9IToG00UH6dOtucgb0Ks/view?usp=drive_link
